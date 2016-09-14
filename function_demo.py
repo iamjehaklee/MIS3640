@@ -55,4 +55,5 @@ def quadratic(a,b,c):
             x2 = (-b - math.sqrt(b**2 - 4*a*c)) / (2 * a) 
             print('The two answers are', x1, 'and', x2, '.')       
 
-print(quadratic(1,3,3))
+print(quadratic(2,100,5))   #solvable 
+print(quadratic(1,3,3))     #imaginary
