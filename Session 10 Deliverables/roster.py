@@ -1,3 +1,5 @@
+#professor. I don't know why my list doesn't append and remove the called students. 
+
 roster = ["Beshansky",
           "Collins",
           "Fischer",
@@ -28,7 +30,9 @@ def call_three(roster):
     number_list = random.sample(range(1,len(roster)), 3)
     for number in number_list:
         print(roster[number])
-        
+        roster_completed.append(roster[number])
+        roster.remove(roster[number])
+
+
 call_three(roster)
 
-Prevent repeat names
