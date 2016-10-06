@@ -1,15 +1,14 @@
-# age = int(input('How old are you?'))
+age = int(input('How old are you?'))
 
-# age = 23
-# if age >= 21:
-#     print("Your age is " + str(age) + '.')
-#     print('Yes, you can.')
-# elif age >= 6:
-#     print("Your age is " + str(age) + '.')
-#     print("Teenager.")
-# else:
-#     print("Your age is " + str(age) + '.')
-#     print('No, not allowed.')
+if age >= 21:
+    print("Your age is " + str(age) + '.')
+    print('Yes, you can.')
+elif age >= 6:
+    print("Your age is " + str(age) + '.')
+    print("Teenager.")
+else:
+    print("Your age is " + str(age) + '.')
+    print('No, not allowed.')
 #--------------------------------------------
 # x=1
 # y=2
@@ -66,11 +65,11 @@
 #         countdown(n-1)
 # countdown(4)
 #--------------------------------------------
-def print_n(s, n):
-    if n <= 0:
-        return
-    print(s)
-    print('n = ', n)
-    print_n(s, n-1)
+# def print_n(s, n):
+#     if n <= 0:
+#         return
+#     print(s)
+#     print('n = ', n)
+#     print_n(s, n-1)
 
-print_n('hello', 3)
+# print_n('hello', 3)
